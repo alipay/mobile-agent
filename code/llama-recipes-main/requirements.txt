@@ -1,0 +1,15 @@
+torch>=2.0.1
+appdirs
+loralib
+bitsandbytes
+black
+black[jupyter]
+datasets
+fire
+peft
+transformers==4.35.0
+sentencepiece
+py7zr
+scipy
+optimum
+accelerate==0.25.0
