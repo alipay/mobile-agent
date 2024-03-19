@@ -373,7 +373,7 @@ To add a AitW dataset the following steps need to be performed.
 ### Fine-tuning
 Fine-tuning used Llama2-7b. For more information, please refer to [llama-recipes](https://github.com/facebookresearch/llama-recipes/tree/main)
 ```bash
-> mkdir /mntnlp && mount -t nfs -o vers=3,nolock,proto=tcp,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport alipay-heyuan-23-tpc3.cn-heyuan-alipay.nas.aliyuncs.com:/ /mntnlp
+
 > cd code & $pip install -r llama-recipes-main/requirements.txt
 > torchrun --nnodes 1 \
          --nproc_per_node 1 llama-recipes-main/examples/finetuning.py \
